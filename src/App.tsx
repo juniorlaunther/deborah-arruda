@@ -138,7 +138,7 @@ export default function App() {
             animate={{ opacity: 1, y: 0 }}
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass text-[10px] md:text-xs font-bold tracking-widest text-accent mb-6 md:mb-8 uppercase"
           >
-            <Star size={12} fill="currentColor" /> A Voz que Transforma Eventos
+            <Star size={12} fill="currentColor" /> A Voz da Nova Cena Urbana
           </motion.div>
           
           <h1 className="hero-title text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-display font-black leading-[0.95] mb-6 uppercase">
@@ -147,7 +147,7 @@ export default function App() {
           </h1>
           
           <p className="hero-sub text-sm md:text-lg lg:text-xl text-white/90 md:text-white/80 max-w-2xl mb-8 md:mb-10 font-light leading-relaxed drop-shadow-lg">
-            Deborah Arruda traz sofisticação, técnica e emoção para os palcos mais exigentes do Brasil. Uma experiência artística completa para o seu evento.
+            Apresenta um repertório vibrante, onde a música urbana se une a performances cativantes. Inspirada por Beyoncé, SZA, Doja Cat, Ebony e Duquesa.
           </p>
 
           <div className="hero-cta flex flex-col sm:flex-row items-center justify-center md:justify-end gap-4 w-full">
@@ -206,11 +206,11 @@ export default function App() {
         <div className="flex whitespace-nowrap animate-marquee">
           {[...Array(10)].map((_, i) => (
             <div key={i} className="flex items-center gap-8 md:gap-12 mx-4 md:mx-6">
+              <span className="text-xl md:text-2xl font-display font-bold opacity-20 uppercase tracking-tighter">Empoderamento & Autonomia</span>
+              <Star className="opacity-10" size={16} />
+              <span className="text-xl md:text-2xl font-display font-bold opacity-20 uppercase tracking-tighter">Rap Trap Funk Pop</span>
+              <Star className="opacity-10" size={16} />
               <span className="text-xl md:text-2xl font-display font-bold opacity-20 uppercase tracking-tighter">Deborah Arruda</span>
-              <Star className="opacity-10" size={16} />
-              <span className="text-xl md:text-2xl font-display font-bold opacity-20 uppercase tracking-tighter">Tour 2026</span>
-              <Star className="opacity-10" size={16} />
-              <span className="text-xl md:text-2xl font-display font-bold opacity-20 uppercase tracking-tighter">Sua Música, Nossa Alma</span>
               <Star className="opacity-10" size={16} />
             </div>
           ))}
@@ -247,7 +247,7 @@ export default function App() {
             </div>
             <div>
               <h3 className="text-lg md:text-2xl font-bold mb-2 uppercase">Repertório Versátil</h3>
-              <p className="text-white/60 text-xs md:text-sm">Do Jazz ao Pop, do MPB ao Internacional. Adaptabilidade total ao perfil do seu evento.</p>
+              <p className="text-white/60 text-xs md:text-sm">Apresenta um repertório vibrante, onde a música urbana se une a performances cativantes. Inspirada por Beyoncé, SZA, Doja Cat, Ebony e Duquesa, ela explora rap, trap, funk e pop com letras que celebram o empoderamento feminino. Cada show é uma experiência única, repleta de energia e autenticidade.</p>
             </div>
           </div>
 
@@ -268,12 +268,12 @@ export default function App() {
               <h3 className="text-xl md:text-3xl font-bold mb-4 uppercase">Presença Digital</h3>
               <div className="flex gap-4">
                 <div className="text-center">
-                  <div className="text-xl md:text-2xl font-bold text-accent">500k+</div>
+                  <div className="text-xl md:text-2xl font-bold text-accent">15k+</div>
                   <div className="text-[8px] md:text-[10px] uppercase tracking-widest opacity-50">Streams</div>
                 </div>
                 <div className="w-px h-8 md:h-10 bg-white/10"></div>
                 <div className="text-center">
-                  <div className="text-xl md:text-2xl font-bold text-accent">100k+</div>
+                  <div className="text-xl md:text-2xl font-bold text-accent">+2000</div>
                   <div className="text-[8px] md:text-[10px] uppercase tracking-widest opacity-50">Seguidores</div>
                 </div>
               </div>
@@ -312,15 +312,15 @@ export default function App() {
           <div className="reveal">
             <h2 className="text-3xl md:text-5xl font-black mb-6 md:mb-8 uppercase leading-tight">A trajetória de uma <br /><span className="text-gradient">Artista Completa</span></h2>
             <p className="text-white/70 text-base md:text-lg mb-6 md:mb-8 leading-relaxed">
-              Com mais de uma década dedicada aos palcos, Deborah Arruda consolidou sua carreira através de uma voz única e interpretações viscerais. Sua jornada musical é marcada pela busca incessante pela perfeição técnica e pela conexão emocional com o público.
+              Deborah Arruda é uma artista em ascensão no Brasil, que iniciou sua carreira aos 17 anos, publicando covers nas redes sociais. Em 2022, após a pandemia, começou a se apresentar ao vivo em São Paulo, especialmente na Avenida Paulista, onde encanta com suas performances de hits contemporâneos. Compositora desde os 14 anos, Deborah explora gêneros urbanos como rap, trap e funk, com o pop, trazendo mensagens de empoderamento e autonomia feminina. Sua música redefine a cena da música brasileira, destacando a presença das mulheres e cativando um público crescente.
             </p>
             
             <ul className="space-y-3 md:space-y-4 mb-8 md:mb-12">
               {[
-                "Shows para Eventos Corporativos de Luxo",
-                "Apresentações em Casamentos e Cerimônias",
-                "Turnês em Casas de Shows e Teatros",
-                "Produção Musical e Colaborações Artísticas"
+                "Performances Vibrantes de Rap, Trap e Funk",
+                "Shows com Foco em Empoderamento Feminino",
+                "Apresentações de Hits Contemporâneos e Autorais",
+                "Experiências Únicas com Autenticidade Urbana"
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3 text-white/80 text-sm md:text-base">
                   <CheckCircle2 className="text-accent" size={18} /> {item}
