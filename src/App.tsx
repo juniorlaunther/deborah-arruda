@@ -119,13 +119,13 @@ export default function App() {
       </header>
 
       {/* Hero Section */}
-      <section id="inicio" className="relative min-h-screen flex items-center justify-center md:justify-end pt-24 pb-24 md:pb-32">
+      <section id="inicio" className="relative min-h-screen flex items-center justify-center md:justify-end pt-24 pb-24 md:pb-32 overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
             src="https://instagram.fcpq7-1.fna.fbcdn.net/v/t51.82787-15/541667364_18520287214041570_7763048543614954907_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzcxMzYzNTE1OTcyMDkzMDQ2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=pcyOQrWtrF8Q7kNvwGv8iHA&_nc_oc=AdlM2rzgBQZWHqVNF9FwbMm6aJKbpv5zrvFx4A3bI86v1u58-_nQ-JxMdcg4GDt6BrE&_nc_ad=z-m&_nc_cid=1138&_nc_zt=23&_nc_ht=instagram.fcpq7-1.fna&_nc_gid=-JZdQNjgHK_mCGJj7UVaiA&_nc_ss=8&oh=00_Afy-ILlKnWwY862t8b02ikaXuK2r-y_N40kw95sp2wPwxw&oe=69B4C675" 
             alt="Deborah Arruda" 
-            className="w-full h-full object-cover opacity-60 scale-105 object-top md:object-center"
+            className="w-full h-full object-cover opacity-60 object-top md:object-center"
             referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-linear-to-r from-obsidian/20 via-obsidian/40 to-obsidian/90 hidden md:block"></div>
